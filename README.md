@@ -12,7 +12,7 @@
 * Wrap your imports with `try: except:` but in following cases, do not wrap them:
     * If a module is in the [requirements.txt](https://github.com/probml/pyprobml/blob/master/requirements.txt)
     * If a module is an inbuilt module of Python, such as `os`, `sys` etc.
-* Import latexify and savefig functions from [probml_utils](https://github.com/probml/probml-utils) repo. In case, you find any difficulty in using this, or find any bug, open an issue on this repo stating the details.
+* Import latexify and savefig functions from [probml_utils](https://github.com/probml/probml-utils) repo. In case, you find any difficulty in using this, or find any bug, open an issue on this repo (pyprobml-review repo) stating the details.
 
 ### Recent major changes in practice
 * Use both `FIG_DIR` and `LATEXIFY` variables to generate latexified figures. `FIG_DIR` should contain the location where you would like to save the figures. For example:
