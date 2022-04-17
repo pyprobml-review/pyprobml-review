@@ -5,3 +5,8 @@
 3. After your notebook is ready for review, create a PR (with same title of issue) on this repo so we can review/discuss them and add comments in PR itself. 
 4. You should add latexified figures in your PR (see this [gist](https://gist.github.com/karm-patel/15b1e1895756088725872bba9204c9d1) for example). You can use overleaf latex template to render latexified figures
 6. Once reviewed, you can create a PR on main repo.
+
+
+### Common instructions
+
+* Wrap your imports with `try: except:` but also check if a package is already in [requirements.txt](https://github.com/probml/pyprobml/blob/master/requirements.txt), in that case simply import it.
