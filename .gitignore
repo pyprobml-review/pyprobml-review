@@ -5,3 +5,6 @@ plot_utils.py
 figures
 __pycache__/
 scripts
+venv
+.python-version
+
