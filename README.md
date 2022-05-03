@@ -6,7 +6,7 @@
 4. You should add latexified figures in your PR (see this [gist](https://gist.github.com/karm-patel/15b1e1895756088725872bba9204c9d1) for example). You can use overleaf latex template to render latexified figures
 6. Once confirmed by one of the reviewers, you can create a PR on main repo.
 
-### [Follow these instructions carefully](https://github.com/probml/pyprobml/tree/master/notebooks#notebooks)
+### [[Important] Follow these instructions carefully](https://github.com/probml/pyprobml/tree/master/notebooks#notebooks)
 
 ## UPDATE
 There are some changes which we need to keep in mind and update code accordingly. see this [reference notebook](https://github.com/probml/pyprobml/blob/master/notebooks/book1/02/discrete_prob_dist_plot.ipynb) to compare these changes.
