@@ -6,12 +6,11 @@
 4. You should add latexified figures in your PR (see this [gist](https://gist.github.com/karm-patel/15b1e1895756088725872bba9204c9d1) for example). You can use overleaf latex template to render latexified figures
 6. Once confirmed by one of the reviewers, you can create a PR on main repo.
 
+### [[Important] Follow these instructions carefully](https://github.com/probml/pyprobml/tree/master/notebooks#notebooks)
+
 ## UPDATE
 There are some changes which we need to keep in mind and update code accordingly. see this [reference notebook](https://github.com/probml/pyprobml/blob/master/notebooks/book1/02/discrete_prob_dist_plot.ipynb) to compare these changes.
 1. We do not need to add try...except when package is available in [requirement.txt](https://github.com/probml/pyprobml/blob/master/requirements.txt) 
 2. Now [probml-utils](https://github.com/probml/probml-utils) became local installable pip package. path of probml-utils is given in [requirement.txt](https://github.com/probml/pyprobml/blob/master/requirements.txt)
 3. The way of working of `latexify()` is slighly changed, basically we do not need to put it under condition `if LATEXIFY`. I recommend to see `plotting.py` file in probml-utils repo to understand these changes.
 4. In orrder to save figure we need to save path in `FIG_DIR` environment variable. if this path is not set, code will run but it will not save any figure.
-
-ALL these instructions are already updated in the following link:
-### [Follow these instructions carefully](https://github.com/probml/pyprobml/tree/master/notebooks#notebooks)
